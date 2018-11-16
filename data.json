@@ -1,0 +1,11 @@
+var searchables = 
+{"health.html" : 
+	["UHS", 
+		["Health", "UHS", "Hospital", "Medicine"]], 
+"more_resources.html" : 
+	["Tartan Ink",
+		["Printing", "Shipping"]],
+"emergency.html" :
+	["EMS/PD",
+		["Emergency", "Health", "EMS", "PD", "Medical", "Services", "Police", "Department"]],
+}
