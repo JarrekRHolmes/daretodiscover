@@ -61,7 +61,7 @@ var searchables =
 			"access"]],
 "Housing and Dining" :
 	["resources/student_living.html",
-		["huosing", "dining", "meal", "red", "laundry", "dorm", "allergy", "allergen", "allergies", "vegetarian",
+		["housing", "dining", "meal", "red", "laundry", "dorm", "allergy", "allergen", "allergies", "vegetarian",
 			"dietary", "vegan"]],
 "Disability Resources" :
 	["resources/support.html",
