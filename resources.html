@@ -1,0 +1,204 @@
+<!-- Dare to Discover, Orientation Resource Guide  -->
+<!-- 67-240, Team 3 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- Link to icons on Navbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+
+      body {
+        text-align: center;
+        margin: 0;
+      }
+
+      /*Applies to "Resources" Title*/
+      h1{
+        color: white;
+        padding: 2%;
+        font-size: 2em;
+      }
+
+      /*Applies to the Header: "Categories"*/
+      h2 {
+        font-size: 1.75em;
+        padding: 2% 5.5% 0%;
+        text-align: left;
+      }
+
+      /*Applies to Category Buttons*/
+      h3 {
+        font-size: 100%;
+        color: white;
+      }
+
+      /*Applies to Footer Text*/
+      h4 {
+        text-align: left;
+        padding: 0% 5.5% 3%;
+        font-size: 50%;
+        color: gray;
+      }
+
+      /*Makes the Navbar stick to the top*/
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+
+      /*Text underneith each icon*/
+      p.iconText {
+        font-size: 30%;
+        text-decoration:none;
+      }
+
+      /*Applies to paragraphs underneith title "Welcome to Carnegie Mellon"*/
+      p.OrientationInformation {
+        text-align: left;
+        padding: 1% 5.5% 0%;
+        font-size: 90%
+      }
+
+      /*When user is currently on the page of the icon*/
+      .icon-bar .active{
+        font-weight: bold;
+        color: #CC002B;
+      }
+
+       /*The color for the "Dare to Discover" background*/
+      .headerDiv {
+        background-color: #CC002B;
+      }
+
+      /*Code for the icon Navbar*/
+      .icon-bar {
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        overflow: auto;
+        /*divider underneith navbar*/
+        border-style: hidden hidden solid hidden;
+        border-width: 1px;
+        border-color: rgb(200, 200, 200);
+      }
+
+      /*Code for the actual icons on the Navbar*/
+      .icon-bar a {
+        width: 20%; /*Each icon is 20% of total phone width*/
+        padding: 0;
+        float: left;
+        transition: all 0.3s ease;
+        color: black; /*Icon color*/
+        font-size: 180%; /*Icon size*/
+      }
+
+      /*Hover Over an Icon on Navbar*/
+      .icon-bar a:hover {
+        text-decoration: none;
+      }
+
+      /*Dimentions for the Main Orientation Image on Homepage*/
+      .mainImage {
+        width: 100%;
+        height: 100%;
+      }
+
+      /*Applies to each boxed category*/
+      .singleCategory {
+        background-color: #CC002B;
+        text-align: left;
+        padding: 4% 2%;
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin: 5%;
+        border-radius: 15px;
+      }
+
+
+    </style>
+    
+    <title>Resources</title>
+  </head>
+  <body>
+
+    <!--Header-->
+    <div class="headerDiv">
+      <h1> Resources </h1>
+    </div>
+    <!--END Header-->
+
+    <!--Navbar Icons and Text-->
+    <div class="icon-bar sticky"> <!--Makes Navbar Sticky-->
+      <a href="index.html"><i class="fa fa-home"></i><p class="iconText">home</p></a>
+      <a class="active" href="#"><i class="fa fa-book"></i><p class="iconText">resources</p></a> 
+      <a href="#"><i class="fa fa-lightbulb-o"></i><p class="iconText">learn</p></a> 
+      <a href="#"><i class="fa fa-calendar"></i><p class="iconText">schedule</p></a>
+      <a href="search.html"><i class="fa fa-search"></i><p class="iconText">search</p></a> 
+    </div>
+    <!--END Navbar-->
+
+    <h2> Categories </h2>
+
+    <!--Academic/Career Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Academic/Career </h3>
+    </div>
+
+    <!--Emergency Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Emergency </h3>
+    </div>
+
+    <!--Health Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Health </h3>
+    </div>
+
+    <!--Student Living Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Student Living </h3>
+    </div>
+
+    <!--Support Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Support </h3>
+    </div>
+
+    <!--More Resources Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> More Resources </h3>
+    </div>
+
+    <!--Clears the float -->
+    <div style="clear: both;"></div>
+
+    <hr>
+
+    <!--Footer-->
+    <h4>&#169;2018 by Jarrek Holmes, Daniel Noh, Angela Rubin.
+        <br>
+        Carnegie Mellon University. All Rights Reserved.
+    </h4>
+    <!--END Footer-->
+
+  </body>
+</html>
