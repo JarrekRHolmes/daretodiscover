@@ -1,11 +1,13 @@
 var searchables = 
 {"health.html" : 
 	["UHS", 
-		["Health", "UHS", "Hospital", "Medicine"]], 
+		["health", "uhs",  "university", "health", "services", "hospital", "medicine", "flu", "shot",
+			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease"]], 
 "more_resources.html" : 
 	["Tartan Ink",
-		["Printing", "Shipping"]],
+		["printing", "shipping"]],
 "emergency.html" :
 	["EMS/PD",
-		["Emergency", "Health", "EMS", "PD", "Medical", "Services", "Police", "Department"]],
+		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
+			"drugs", "alcohol", "amnesty"]],
 }
