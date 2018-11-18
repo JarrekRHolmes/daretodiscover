@@ -1,12 +1,11 @@
 /* Styling for Flipcards */
-
 body {
     text-align: center;
     margin:0;
 }
 
-/*Applies to "Dare to Discover" Title*/
-h1{
+/*Applies to Page Titles*/
+h1 {
     padding-left: 5%;
     padding-top: 4%;
     padding-bottom: 1%;
@@ -14,7 +13,27 @@ h1{
     font-size: 1.4em;
 }  
 
-/*Applies to the Header: "Categories"*/
+h1.homepage {
+    color: #F2A900;
+}
+
+h1.resources {
+    color: #CC002B;
+}
+
+h1.learn {
+    color: #F8D47F;
+}
+
+h1.schedule {
+    color: #EA99AA;
+}
+
+h1.search {
+    color: #7A0019;
+}
+
+/*Applies to the Page Headers*/
 h2 {
     font-size: 1.4em;
     padding: 4% 5.5% 0%;
@@ -42,32 +61,47 @@ div.sticky {
     top: 0;
 }
 
-/*Text underneith each icon*/
+/*Text underneath each icon*/
 p.iconText {
     font-size: .3em;
     text-decoration: none;
     margin-bottom: 10%;
 }
 
-/*Applies to paragraphs underneith title "Welcome to Carnegie Mellon"*/
+/*Applies to paragraphs underneath title "Welcome to Carnegie Mellon"*/
 p.OrientationInformation {
     text-align: left;
     padding: 1% 5.5% 0%;
     font-size: .9em;
 }
 
-/*When user is currently on the page of the icon*/
-.icon-bar.health .active{
+/*Color and font weight for active LEARN page*/
+.icon-bar.learn .active{
     font-weight: 600;
-    color: #f8d47f;
+    color: #F8D47F;
 }
 
-/*When user is currently on the page of the icon*/
-.icon-bar .active{
-font-weight: 600;
-color: #CC002B;
+/*Color and font weight for active INDEX page*/
+.icon-bar.homepage .active {
+    font-weight: 600;
+    color: #F2A900;
 }
 
+/*Color and font weight for active RESOURCE page*/
+.icon-bar.resources .active {
+    font-weight: 600;
+    color: #CC002B;
+}
+
+.icon-bar.schedule .active {
+    font-weight: 600;
+    color: #EA99AA;
+}
+
+.icon-bar.search .active {
+    font-weight: 600;
+    color: #7A0019;
+}
 
 /*Code for the icon Navbar*/
 .icon-bar {
@@ -113,6 +147,27 @@ label {
     cursor: pointer;
 }
 
+label:hover .card {
+    -webkit-transform: rotateX(3deg);
+    transform: rotateX(3deg);
+    box-shadow: 0 3px 3px rgba(50,50,50,.2);
+}
+
+input {
+    display: none;
+}
+
+label:hover :checked + .card {
+    transform: rotateX(177deg);
+    -webkit-transform: rotateX(177deg);
+    box-shadow: 0 3px 3px rgba(50,50,50,.2);
+}
+
+:checked + .card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
 .card {
     height: 100%;
     width: 100%;
@@ -150,35 +205,14 @@ label {
     position: relative;
 }
 
-label:hover .card {
-    -webkit-transform: rotateX(3deg);
-    transform: rotateX(3deg);
-    box-shadow: 0 3px 3px rgba(50,50,50,.2);
-}
-
-input {
-    display: none;
-}
-
-:checked + .card {
-    transform: rotateX(180deg);
-    -webkit-transform: rotateX(180deg);
-}
-
-label:hover :checked + .card {
-    transform: rotateX(177deg);
-    -webkit-transform: rotateX(177deg);
-    box-shadow: 0 3px 3px rgba(50,50,50,.2);
-}
-
-/*Dimentions for the Main Orientation Image on Homepage*/
+/*Dimensions for the Main Orientation Image on Homepage*/
 .mainImage {
 width: 100%;
 height: 100%;
 }
 
-/*Applies to each boxed category*/
-.singleCategory {
+/*Applies to each boxed category for RESOURCE*/
+.singleCategoryResource {
 background-color: #CC002B;
 text-align: left;
 padding: 4% 4%;
@@ -189,7 +223,7 @@ margin: 5%;
 border-radius: 15px;
 }
 
-/*Applies to each boxed category*/
+/*Applies to each boxed category for LEARN*/
 .singleCategoryLearn {
 background-color: #f8d47f;
 text-align: left;
@@ -204,7 +238,6 @@ border-radius: 15px;
 #output{
     text-align: left;
 }
-
 
 .page-wrap {
   min-height: 100vh;
