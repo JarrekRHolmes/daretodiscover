@@ -14,11 +14,18 @@ h1{
     font-size: 1.4em;
 }  
 
+/*Applies to the Header: "Categories"*/
 h2 {
     font-size: 1.4em;
     padding: 4% 5.5% 0%;
     text-align: left;
 } 
+
+/*Applies to Category Buttons*/
+h3 {
+font-size: 100%;
+color: white;
+}
 
 /*Applies to Footer Text*/
 h4 {
@@ -53,6 +60,12 @@ p.OrientationInformation {
 .icon-bar.health .active{
     font-weight: 600;
     color: #f8d47f;
+}
+
+/*When user is currently on the page of the icon*/
+.icon-bar .active{
+font-weight: 600;
+color: #CC002B;
 }
 
 
@@ -111,31 +124,31 @@ label {
     padding: 5%;
 }
 
-    .card div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-radius: 2px;
-    }
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
 
-    .card .back {
-        position: absolute;
-        width: 90%;
-        -webkit-transform: rotateX(180deg);
-        transform: rotateX(180deg);
-    }
+.card .back {
+    position: absolute;
+    width: 90%;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
 
-    .card p {
-        margin-bottom: 0;
-        font-size: 0.9em;
-    }
+.card p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
 
-    .card .back p {
-        position: relative;
-    }
+.card .back p {
+    position: relative;
+}
 
 label:hover .card {
     -webkit-transform: rotateX(3deg);
@@ -156,4 +169,38 @@ label:hover :checked + .card {
     transform: rotateX(177deg);
     -webkit-transform: rotateX(177deg);
     box-shadow: 0 3px 3px rgba(50,50,50,.2);
+}
+
+/*Dimentions for the Main Orientation Image on Homepage*/
+.mainImage {
+width: 100%;
+height: 100%;
+}
+
+/*Applies to each boxed category*/
+.singleCategory {
+background-color: #CC002B;
+text-align: left;
+padding: 4% 4%;
+float: left;
+width: 150px;
+height: 150px;
+margin: 5%;
+border-radius: 15px;
+}
+
+/*Applies to each boxed category*/
+.singleCategoryLearn {
+background-color: #f8d47f;
+text-align: left;
+padding: 4% 4%;
+float: left;
+width: 150px;
+height: 150px;
+margin: 5%;
+border-radius: 15px;
+}
+
+#output{
+    text-align: left;
 }
