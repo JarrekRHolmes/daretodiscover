@@ -13,11 +13,143 @@
 
     <link rel="stylesheet" href="stylesheet.css">
 
+    <!-- Link to icons on Navbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+
+      body {
+        text-align: center;
+        margin:0;
+      }
+
+      /*Applies to "Dare to Discover" Title*/
+      h1{
+        color: white;
+        padding: 2%;
+        font-size: 2em;
+      }
+
+      /*Applies to the Header: "Welcome to Carnegie Mellon"*/
+      h3 {
+        font-size: 130%;
+        padding: 4% 5.5%;
+        text-align: left;
+      }
+
+      /*Applies to Footer Text*/
+      h4 {
+        text-align: left;
+        padding: 0% 5.5% 3%;
+        font-size: 50%;
+        color: gray;
+      }
+
+      /*Makes the Navbar stick to the top*/
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+
+      /*Text underneith each icon*/
+      p.iconText {
+        font-size: 30%;
+        text-decoration:none;
+      }
+
+      /*Applies to paragraphs underneith title "Welcome to Carnegie Mellon"*/
+      p.OrientationInformation {
+        text-align: left;
+        padding: 1% 5.5% 0%;
+        font-size: 90%
+      }
+
+      /*When user is currently on the page of the icon*/
+      .icon-bar .active{
+        font-weight:bold;
+        color: #F2A900;
+      }
+
+       /*The color for the "Dare to Discover" background*/
+      .headerDiv {
+        background-color: #F2A900;
+      }
+
+      /*Code for the icon Navbar*/
+      .icon-bar {
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        overflow: auto;
+      }
+
+      /*Code for the actual icons on the Navbar*/
+      .icon-bar a {
+        width: 20%; /*Each icon is 20% of total phone width*/
+        padding: 0;
+        float: left;
+        transition: all 0.3s ease;
+        color: black; /*Icon color*/
+        font-size: 180%; /*Icon size*/
+      }
+
+      /*Hover Over an Icon on Navbar*/
+      .icon-bar a:hover {
+        text-decoration: none;
+      }
+
+      /*Dimentions for the Main Orientation Image on Homepage*/
+      .mainImage {
+        width: 100%;
+        height: 100%;
+      }
+
+    </style>
+    
     <title>Dare to Discover</title>
   </head>
   <body>
 
-  No way! I'm Jarrek!
+    <!--Header-->
+    <div class="headerDiv">
+      <h1> Dare to Discover! </h1>
+    </div>
+    <!--END Header-->
+
+    <!--Navbar Icons and Text-->
+    <div class="icon-bar sticky"> <!--Makes Navbar Sticky-->
+      <a class="active" href="index.html"><i class="fa fa-home"></i><p class="iconText">home</p></a>
+      <a href="resources.html"><i class="fa fa-book"></i><p class="iconText">resources</p></a> 
+      <a href="#"><i class="fa fa-lightbulb-o"></i><p class="iconText">learn</p></a> 
+      <a href="#"><i class="fa fa-calendar"></i><p class="iconText">schedule</p></a>
+      <a href="search.html"><i class="fa fa-search"></i><p class="iconText">search</p></a> 
+    </div>
+    <!--END Navbar-->
+
+    <!--Main Image-->
+    <img class="mainImage" src="images/Orientation-Image.jpg" alt="Orientation Image"/>
+
+    <!--Title for Paragraphs-->
+    <h3> Welcome to Carnegie Mellon! </h3>
+
+    <!--Paragraph 1-->
+    <p class="OrientationInformation"> The Orientation &#38; First-Year Programs are responsible for providing vision and leadership for a comprehensive approach to new student orientation and transition programs. The office provides programs, opportunities, and services to help students and family members successfully transition to the Carnegie Mellon community. </p>
+    
+    <!--Paragraph 2-->
+    <p class="OrientationInformation"> The office is responsible for programing, developing, marketing, and implementing orientation and transition programs. Areas of concentration include&#58; new student orientation, parent&#39;s programming such as Family Weekend, freshman programming series, and special event planning. </p> 
+
+    <!--Paragraph 3-->
+    <p class="OrientationInformation"> For additional information, please visit our Admission and Housing &#38;  Dining Services websites. </p> 
+
+    <hr>
+
+    <!--Footer-->
+    <h4>&#169;2018 by Jarrek Holmes, Daniel Noh, Angela Rubin.
+        <br>
+        Carnegie Mellon University. All Rights Reserved.
+    </h4>
+    <!--END Footer-->
 
   No Way im daniel!
   </body>
