@@ -253,4 +253,13 @@ footer, .page-wrap:after {
     height:60px;            /* Height of the footer */
 }
 
+.location{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.resource_img{
+    width: 80%;
+}
 
