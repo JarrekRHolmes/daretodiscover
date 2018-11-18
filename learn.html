@@ -23,7 +23,7 @@
         margin: 0;
       }
 
-      /*Applies to "Dare to Discover" Title*/
+      /*Applies to "Resources" Title*/
       h1{
         padding-left: 5%;
         padding-top: 4%;
@@ -32,11 +32,17 @@
         font-size: 1.4em;
       }
 
-      /*Applies to the Header: "Welcome to Carnegie Mellon"*/
-      h3 {
+      /*Applies to the Header: "Categories"*/
+      h2 {
         font-size: 1.4em;
-        padding: 4% 5.5%;
+        padding: 4% 5.5% 0%;
         text-align: left;
+      }
+
+      /*Applies to Category Buttons*/
+      h3 {
+        font-size: 100%;
+        color: white;
       }
 
       /*Applies to Footer Text*/
@@ -71,9 +77,8 @@
       /*When user is currently on the page of the icon*/
       .icon-bar .active{
         font-weight: 600;
-        color: #F2A900;
+        color: #CC002B;
       }
-
 
       /*Code for the icon Navbar*/
       .icon-bar {
@@ -81,6 +86,10 @@
         text-align: center;
         background-color: white;
         overflow: auto;
+        /*divider underneath navbar*/
+        border-style: hidden hidden solid hidden;
+        border-width: .5px;
+        border-color: rgb(200, 200, 200, 0.7);
       }
 
       /*Code for the actual icons on the Navbar*/
@@ -105,50 +114,88 @@
         height: 100%;
       }
 
+      /*Applies to each boxed category*/
+      .singleCategory {
+        background-color: #f8d47f;
+        text-align: left;
+        padding: 4% 4%;
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin: 5%;
+        border-radius: 15px;
+      }
+
+
     </style>
     
-    <title>Dare to Discover</title>
+    <title>Learn</title>
   </head>
   <body>
 
     <!--Header-->
     <div class="headerDiv">
-      <h1> Dare to Discover </h1>
+      <h1> Learn </h1>
     </div>
     <!--END Header-->
 
     <!--Navbar Icons and Text-->
-    <div class="icon-bar sticky"> <!--Makes Navbar Sticky-->
-      <a class="active" href="index.html"><i class="fa fa-home"></i><p class="iconText">home</p></a>
+    <div class="icon-bar health sticky"> <!--Makes Navbar Sticky-->
+      <a href="index.html"><i class="fa fa-home"></i><p class="iconText">home</p></a>
       <a href="resources.html"><i class="fa fa-book"></i><p class="iconText">resources</p></a> 
-      <a href="learn.html"><i class="fa fa-lightbulb-o"></i><p class="iconText">learn</p></a> 
-      <a href="schedule.html"><i class="fa fa-calendar"></i><p class="iconText">schedule</p></a>
+      <a class="active" href="#"><i class="fa fa-lightbulb-o"></i><p class="iconText">learn</p></a> 
+      <a href="calendar.html"><i class="fa fa-calendar"></i><p class="iconText">schedule</p></a>
       <a href="search.html"><i class="fa fa-search"></i><p class="iconText">search</p></a> 
     </div>
     <!--END Navbar-->
 
-    <!--Main Image-->
-    <img class="mainImage" src="images/Orientation-Image.jpg" alt="Orientation Image"/>
+    <h2> Categories </h2>
 
-    <!--Title for Paragraphs-->
-    <h3> Welcome to Carnegie Mellon! </h3>
+    <!--Academic/Career Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Academic<br>Career </h3>
+    </div>
 
-    <!--Paragraph 1-->
-    <p class="OrientationInformation"> The Orientation &#38; First-Year Programs are responsible for providing vision and leadership for a comprehensive approach to new student orientation and transition programs. The office provides programs, opportunities, and services to help students and family members successfully transition to the Carnegie Mellon community. </p>
-    
-    <!--Paragraph 2-->
-    <p class="OrientationInformation"> The office is responsible for programing, developing, marketing, and implementing orientation and transition programs. Areas of concentration include&#58; new student orientation, parent&#39;s programming such as Family Weekend, freshman programming series, and special event planning. </p> 
+    <!--Emergency Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Emergency </h3>
+    </div>
 
-    <!--Paragraph 3-->
-    <p class="OrientationInformation"> For additional information, please visit our Admission and Housing &#38;  Dining Services websites. </p> 
+    <!--Health Category-->
+    <a href="learn/health.html">
+    <div class="singleCategory">
+      <h3> Health </h3>
+    </div>
+
+    <!--Student Living Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Student<br>Living </h3>
+    </div>
+
+    <!--Support Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> Support </h3>
+    </div>
+
+    <!--More Resources Category-->
+    <a href="#">
+    <div class="singleCategory">
+      <h3> More<br>Resources </h3>
+    </div>
+
+    <!--Clears the float -->
+    <div style="clear: both;"></div>
 
     <hr>
 
     <!--Footer-->
-    <h4>
-    &#169;2018 by Jarrek Holmes, Daniel Noh, Angela Rubin.
-    <br>
-    Carnegie Mellon University. All Rights Reserved.
+    <h4>&#169;2018 by Jarrek Holmes, Daniel Noh, Angela Rubin.
+        <br>
+        Carnegie Mellon University. All Rights Reserved.
     </h4>
     <!--END Footer-->
 
