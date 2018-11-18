@@ -1,13 +1,50 @@
 var searchables = 
-{"health.html" : 
+{"resources/health.html" : 
 	["UHS", 
 		["health", "uhs",  "university", "health", "services", "hospital", "medicine", "flu", "shot",
 			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease"]], 
-"more_resources.html" : 
+"resources/more_resources.html" : 
 	["Tartan Ink",
-		["printing", "shipping"]],
-"emergency.html" :
+		["printing", "shipping", "booklets", "flyers", "posters", "binding", "lamination", "passport", 
+			"photo", "postcard", "brochure", "ups", "print", "ship"]],
+"resources/emergency.html" :
 	["EMS/PD",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
 			"drugs", "alcohol", "amnesty"]],
+"resources/academic_career.html" :
+	["Academic Development",
+		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
+			"study"]],
+"resources/academic_career.html" :
+	["Global Communication Center",
+		["gcc", "global", "communication", "center", "powerpoint", "esssay", "personal", "statement", "resume", "cover",
+			"letter", "speech", "email", "grant", "writing", "revising", "editing", "research", "paper"]],
+"resources/academic_career.html" :
+	["Intercultural Communication Center",
+		["intercultural", "communication", "center", "english", "non-native", "second", "language", "TOEFL", "ICC",
+			"ITA"]],
+"resources/academic_career.html" :
+	["Career and Professional Development Center",
+		["career", "professional", "development", "center", "resume", "cover", "letter", "job", "prefession",
+			"internship", "CPDC"]],
+"resources/student_living.html" :
+	["The HUB",
+		["financial", "aid", "award", "loan", "scholarship", "registrar", "registration", "transcript", "grades", 
+			"invoices", "payments", "sio", "scheduling", "information", "hub", "id", "card", "account", "enrollment"]],
+"resources/student_living.html" :
+	["Desk Services",
+		["desk", "services", "checkout", "equipment", "printer", "print", "troubleshoot", "trash", "booklet", "orientation",
+			"access"]],
+"resources/support.html" :
+	["Disability Resources",
+		["disability", "resources", "disabilities", "extended", "exam", "injury", "add", "adhd", "dyslexia"]],
+"index.html" :
+	["Home",
+		["home", "orientation", "info", "information", "guide", "resource"]],
+"resources.html" :
+	["All Resources",
+		["resources", "look", "find", "hours", "all", "resource"]],
+"learn.html" :
+	["Learn",
+		["learn", "quiz", "study", "prepare"]],
 }
