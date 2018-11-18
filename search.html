@@ -15,6 +15,9 @@
 
     <!-- Link to icons on Navbar -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     
     <title>Search</title>
   </head>
@@ -100,14 +103,21 @@
               input = inputArray[i].toLowerCase().replace(/[^a-z]/gi, '')
               var tag = searchables[key][0];
               var identifiers = searchables[key][1];
-
               if (identifiers.includes(input)){
-                toDisplay = toDisplay.add("<a class = 'search_results col-12' target = '_none' href = " + key + ">" + tag + "</a><br />");
+                console.log("HI!")
+                toDisplay = toDisplay.add("<a class = 'search_results col-12' target = '_none' href = " + tag + ">" + key + "</a><br />");
+                console.log(Array.from(toDisplay).join("\n"));
               }
             }
-
           }
-          document.getElementById("output").innerHTML = Array.from(toDisplay).join("\n");
+
+          if (toDisplay.size == 0){
+            document.getElementById("output").innerHTML = "<h2> Sorry, we didn't find what you were looking for! <br> <br> Try searching with more keywords, or check your spelling. </h2>"
+          }
+          else{
+            document.getElementById("output").innerHTML = Array.from(toDisplay).join("\n");
+          }
+          
         }
       }
     </script>
