@@ -27,11 +27,11 @@ var searchables =
 "CMU Police Department" :
 	["resources/emergency.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "CMU Emergency Medical Services" :
 	["resources/emergency.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "Academic Development":
 	["resources/academic_career.html" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
