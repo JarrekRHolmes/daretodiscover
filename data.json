@@ -2,7 +2,7 @@ var searchables =
 {"University Health Services" : 
 	["resources/health.html", 
 		["health", "uhs",  "university", "services", "hospital", "medicine", "flu", "shot",
-			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease"]],
+			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease", "er"]],
 "Wellness Initiatives" : 
 	["resources/health.html", 
 		["wellness", "initiative", "headspace", "bewell", "well", "mindful", "mindfulness", "wellbeing",
@@ -27,11 +27,11 @@ var searchables =
 "CMU Police Department" :
 	["resources/emergency.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "CMU Emergency Medical Services" :
 	["resources/emergency.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "Academic Development":
 	["resources/academic_career.html" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
