@@ -11,13 +11,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="../css/stylesheet.css">
 
     <!-- Link to icons on Navbar -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     
     <title>Academic/Career | Resources</title>
   </head>
@@ -25,12 +30,12 @@
     <div class = 'page-wrap'>
       <!--Header-->
       <div class="headerDiv">
-        <h1> Academic/Career </h1>
+        <h1 class="resources"> Academic and Career </h1>
       </div>
       <!--END Header-->
 
       <!--Navbar Icons and Text-->
-      <div class="icon-bar sticky"> <!--Makes Navbar Sticky-->
+      <div class="icon-bar resources sticky"> <!--Makes Navbar Sticky-->
         <a href="../index.html"><i class="fa fa-home"></i><p class="iconText">home</p></a>
         <a class="active" href="../resources.html"><i class="fa fa-book"></i><p class="iconText">resources</p></a> 
         <a href="../learn.html"><i class="fa fa-lightbulb-o"></i><p class="iconText">learn</p></a> 
@@ -39,68 +44,121 @@
       </div>
       <!--END Navbar-->
 
-      <h2> Frequently Asked Questions </h2>
-
       <!--Title for Paragraphs-->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-4 p-0">
-          <label>
-            <input type="checkbox"/>
-            <div class="card">
-              <div class="front"> 
-                <p> <b>Q:</b> &nbsp; Hey, I’m supposed to get some immunizations for the school, where am I supposed to do that? </p>
+      <div class = "container">
+        <div class = "row">
+
+          <div class = "col-12 col-md-6 col-lg-4">
+            <h2> University Health Services </h2>
+            <img src = "../images/uhs.jpg" class = "resource_img"> 
+            <div class="accordion" id="uhs_accordion">
+
+              <div class="card">
+                <div class="card-header" id="uhs_hours">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#uhs_collapse_hours" aria-expanded="false" aria-controls="uhs_collapse_hours">
+                      Hours
+                    </button>
+                  </h5>
+                </div>
+                <div id="uhs_collapse_hours" class="collapse" aria-labelledby="uhs_hours" data-parent="#uhs_accordion">
+                  <div class="card-body">
+                     Monday-Wednesday: 8:30AM-7PM <br>
+                     Thursday: 10AM-7PM <br>
+                     Friday: 8:30AM-5PM <br>
+                     Saturday: 11AM-3PM
+                  </div>
+                </div>
               </div>
-              <div class="back">
-                <p> <b>A:</b> &nbsp; You can go to UHS at 1060 Morewood Avenue, but check in your booklet for the exact times that they are doing immunizations. </p>
+
+              <div class="card">
+                <div class="card-header" id="uhs_hours">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#uhs_collapse_location" aria-expanded="false" aria-controls="uhs_collapse_location">
+                      Location
+                    </button>
+                  </h5>
+                </div>
+                <div id="uhs_collapse_location" class="collapse" aria-labelledby="uhs_location" data-parent="#uhs_accordion">
+                  <div class="card-body">
+                    <p>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12145.308239599735!2d-79.95594732175717!3d40.44589759955645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f2223e3c2551%3A0xe7763eabbc63b9d1!2sMorewood+Gardens%2C+1060+Morewood+Ave%2C+Pittsburgh%2C+PA+15213!5e0!3m2!1sen!2sus!4v1542577731507" class = "location" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                      <br>
+
+                      Ground floor of Morewood E-Tower, entrance is behind the
+                        inbound bus-stop at Forbes.
+                    </p>
+                  </div>
+                </div>
               </div>
+
+              <div class="card">
+                <div class="card-header" id="uhs_hours">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#uhs_collapse_services" aria-expanded="false" aria-controls="uhs_collapse_services">
+                      Services
+                    </button>
+                  </h5>
+                </div>
+                <div id="uhs_collapse_services" class="collapse" aria-labelledby="uhs_services" data-parent="#uhs_accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li> Allergy Shots </li>
+                      <li> Flu Shots </li>
+                      <li> Comprehensive Care Management </li>
+                      <li> General Illness or Injury </li>
+                      <li> Insurance </li>
+                      <li> Health Promotion </li>
+                      <li> LGBTQ Health </li>
+                      <li> Massage </li>
+                      <li> Medical Records </li>
+                      <li> Physicals </li>
+                      <li> Prescription Refils </li>
+                      <li> Sexual Health </li>
+                      <li> Vaccinations </li>
+                      <li> Psychiatric Health </li>
+                      <li> DOES NOT BILL INSURANCE, must pay for services at time rendered then you can get reimbursed through your insurance </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="uhs_hours">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#uhs_collapse_faq" aria-expanded="false" aria-controls="uhs_collapse_faq">
+                      FAQ
+                    </button>
+                  </h5>
+                </div>
+                <div id="uhs_collapse_faq" class="collapse" aria-labelledby="uhs_faq" data-parent="#uhs_accordion">
+                  <div class="card-body">
+                    <p>
+                        <b>Q:</b>  Hey, I’m supposed to get some immunizations for the school, where am I supposed to do that?
+                      <br>
+                      <br>
+                        <b>A:</b> You can go to UHS at 1060 Morewood Avenue, but check in your booklet for the exact times that they are doing immunizations.
+
+                      <br>
+                      <br>
+                      <br>
+
+                        <b>Q:</b>  I need to get allergy shots but I don’t have a car to get me back and forth to my appointments on time. Is there anywhere closer that I can get them done?
+                      <br>
+                      <br>
+                        <b>A:</b> You can arrange to have your allergy shots done at UHS at specific times, although this will have to be arranged with UHS and your healthcare provider.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            </label>
-          </div>
-          
-          <div class="col-sm-6 col-md-4 p-0">
-            <label>
-              <input type="checkbox"/>
-              <div class="card">
-                <div class="front">
-                  <p> <b>Q:</b> &nbsp; I need to get allergy shots but I don’t have a car to get me back and forth to my appointments on time. Is there anywhere closer that I can get them done? </p>
-                </div>
-                <div class="back">
-                <p> <b>A:</b> &nbsp; You can arrange to have your allergy shots done at UHS at specific times, although this will have to be arranged with UHS and your healthcare provider.</p>
-                </div>
-              </div>
-            </label>
           </div>
 
-         <div class="col-sm-6 col-md-4 p-0">
-            <label>
-              <input type="checkbox"/>
-              <div class="card">
-                <div class="front">
-                  <p> <b>Q:</b> &nbsp; I hear CMU is a super stressful school, and I just don’t know if I can handle that. </p>
-                </div>
-                <div class="back">
-                <p> <b>A:</b> &nbsp; CMU is as stressful as you make it, and there are plenty of initiatives on campus to help students destress and live mindful lives. For example, every Wednesday in the mindfulness room they have therapy dogs brought in for students to hang out with and pet! For more information check out the CMU Campus Wellness website.</p>
-                </div>
-              </div>
-            </label>
-          </div>
 
-         <div class="col-sm-6 col-md-4 p-0">
-            <label>
-              <input type="checkbox"/>
-              <div class="card">
-                <div class="front">
-                  <p> <b>Q:</b> &nbsp; I  used to meditate back home, is there a good spot around here for meditation? </p>
-                </div>
-                <div class="back">
-                <p> <b>A:</b> &nbsp; Sure, the mindfulness room is a quiet space for students to relax without any work to distract them. As a CMU student, you also get free access to the Headspace app, a great meditation app, so check that out if you like guided meditation. </p>
-                </div>
-              </div>
-            </label>
-          </div>
-
-        </div>
+        </div> <!-- End Row -->
       </div>
     </div>
 

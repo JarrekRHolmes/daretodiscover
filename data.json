@@ -2,36 +2,32 @@ var searchables =
 {"University Health Services" : 
 	["resources/health.html", 
 		["health", "uhs",  "university", "services", "hospital", "medicine", "flu", "shot",
-			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease"]],
+			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease", "er"]],
 "Wellness Initiatives" : 
 	["resources/health.html", 
 		["wellness", "initiative", "headspace", "bewell", "well", "mindful", "mindfulness", "wellbeing",
 			"stress", "meditation"]], 
-"Center for Diversity and Inclusion" : 
-	["resources/more_resources.html" ,
-		["center", "diversity", "inclusion", "gay", "non-binary", "transgender", "underrepresented",
-			"advocacy", "climate", "intergroup", "dialogue", "safe", "zone"]],
+"Counseling and Psychological Services" :
+	["resources/health.html",
+		["counseling", "psychological", "services", "caps", "mental", "health", "wellness", "psychologist"]],
 "Tartan Ink" : 
-	["resources/more_resources.html" ,
+	["resources/computing_printing.html" ,
 		["printing", "shipping", "booklets", "flyers", "posters", "binding", "lamination", "passport", 
-			"photo", "postcard", "brochure", "ups", "print", "ship"]],
-"Alumni Association" : 
-	["resources/more_resources.html" ,
-		["alumni", "tartan", "network", "internship"]],
+			"photo", "postcard", "brochure", "ups", "print", "ship", "tartan", "ink"]],
 "C@CM" : 
-	["resources/more_resources.html" ,
+	["resources/computing_printing.html" ,
 		["c@cm", "oli", "computing"]],
 "Computing Services" : 
-	["resources/more_resources.html",
+	["resources/computing_printing.html",
 		["computer", "computing", "internet", "android", "iphone", "wireless", "wifi", "service"]],
 "CMU Police Department" :
-	["resources/emergency.html",
+	["resources/police_ems.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "CMU Emergency Medical Services" :
-	["resources/emergency.html",
+	["resources/police_ems.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "Academic Development":
 	["resources/academic_career.html" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
@@ -55,6 +51,9 @@ var searchables =
 	["resources/student_living.html",
 		["financial", "aid", "award", "loan", "scholarship", "registrar", "registration", "transcript", "grades", 
 			"invoices", "payments", "sio", "scheduling", "information", "hub", "id", "card", "account", "enrollment"]],
+"Alumni Association" : 
+	["resources/student_living.html" ,
+		["alumni", "tartan", "network", "internship"]],
 "Desk Services" :
 	["resources/student_living.html",
 		["desk", "services", "checkout", "equipment", "printer", "print", "troubleshoot", "trash", "booklet", "orientation",
@@ -64,15 +63,16 @@ var searchables =
 		["housing", "dining", "meal", "red", "laundry", "dorm", "allergy", "allergen", "allergies", "vegetarian",
 			"dietary", "vegan"]],
 "Disability Resources" :
-	["resources/support.html",
+	["resources/inclusion.html",
 		["disability", "resources", "disabilities", "extended", "exam", "injury", "add", "adhd", "dyslexia"]],
-"Counseling and Psychological Services" :
-	["resources/support.html",
-		["counseling", "psychological", "services", "caps", "mental", "health", "wellness", "psychologist"]],
 "Title IX" :
-	["resources/support.html",
+	["resources/inclusion.html",
 		["title", "ix", "services", "gender", "equality", "disciplinary", "sexual", "misconduct", "assault",
 			"discrimination", "sex"]],
+"Center for Diversity and Inclusion" : 
+	["resources/inclusion.html" ,
+		["center", "diversity", "inclusion", "gay", "non-binary", "transgender", "underrepresented",
+			"advocacy", "climate", "intergroup", "dialogue", "safe", "zone"]],
 "Home" :
 	["index.html",
 		["home", "orientation", "info", "information", "guide", "resource"]],
