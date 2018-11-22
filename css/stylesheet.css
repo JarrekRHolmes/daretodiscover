@@ -186,7 +186,16 @@ label:hover :checked + .card.learn {
     transform-style: preserve-3d;
     -webkit-transition: all 600ms;
     transition: all 600ms;
-    padding: .5%;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card.resource button {
+    font-weight: 600;
+    text-decoration: none;
+    color: #CC002B;
 }
 
 .card.schedule {
