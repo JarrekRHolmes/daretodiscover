@@ -2,18 +2,21 @@ var searchables =
 {"University Health Services" : 
 	["resources/health.html", 
 		["health", "uhs",  "university", "services", "hospital", "medicine", "flu", "shot",
-			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease", "er"]],
+			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease", "er",
+			"morewood", "gardens"]],
 "Wellness Initiatives" : 
 	["resources/health.html", 
 		["wellness", "initiative", "headspace", "bewell", "well", "mindful", "mindfulness", "wellbeing",
 			"stress", "meditation"]], 
 "Counseling and Psychological Services" :
 	["resources/health.html",
-		["counseling", "psychological", "services", "caps", "mental", "health", "wellness", "psychologist"]],
+		["counseling", "psychological", "services", "caps", "mental", "health", "wellness", "psychologist",
+			"morewood", "gardens"]],
 "Tartan Ink" : 
 	["resources/computing_printing.html" ,
 		["printing", "shipping", "booklets", "flyers", "posters", "binding", "lamination", "passport", 
-			"photo", "postcard", "brochure", "ups", "print", "ship", "tartan", "ink"]],
+			"photo", "postcard", "brochure", "ups", "print", "ship", "tartan", "ink",
+			"uc", "cuc"]],
 "C@CM" : 
 	["resources/computing_printing.html" ,
 		["c@cm", "oli", "computing"]],
@@ -31,29 +34,31 @@ var searchables =
 "Academic Development":
 	["resources/academic_career.html" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
-			"study"]],
+			"study", "library", "hunt", "cyert"]],
 "Undergraduate Research Office" :
 	["resources/academic_career.html",
-		["research", "undergraduate", "surg", "surf", "fellowship", "project"]],
+		["research", "undergraduate", "surg", "surf", "fellowship", "project", "warner", "hall"]],
 "Global Communication Center" :
 	["resources/academic_career.html",
 		["gcc", "global", "communication", "center", "powerpoint", "esssay", "personal", "statement", "resume", "cover",
-			"letter", "speech", "email", "grant", "writing", "revising", "editing", "research", "paper"]],
+			"letter", "speech", "email", "grant", "writing", "revising", "editing", "research", "paper",
+			"library", "hunt"]],
 "Intercultural Communication Center" :
 	["resources/academic_career.html",
 		["intercultural", "communication", "center", "english", "non-native", "second", "language", "TOEFL", "ICC",
-			"ITA"]],
+			"ita", "warner", "hall"]],
 "Career and Professional Development Center":
 	["resources/academic_career.html" ,
 		["career", "professional", "development", "center", "resume", "cover", "letter", "job", "prefession",
-			"internship", "CPDC"]],
+			"internship", "CPDC", "west", "wing", "resnik"]],
 "The HUB" :
 	["resources/student_living.html",
 		["financial", "aid", "award", "loan", "scholarship", "registrar", "registration", "transcript", "grades", 
-			"invoices", "payments", "sio", "scheduling", "information", "hub", "id", "card", "account", "enrollment"]],
+			"invoices", "payments", "sio", "scheduling", "information", "hub", "id", "card", "account", "enrollment",
+			"warner"]],
 "Alumni Association" : 
 	["resources/student_living.html" ,
-		["alumni", "tartan", "network", "internship"]],
+		["alumni", "tartan", "network", "internship", "house"]],
 "Desk Services" :
 	["resources/student_living.html",
 		["desk", "services", "checkout", "equipment", "printer", "print", "troubleshoot", "trash", "booklet", "orientation",
@@ -61,18 +66,18 @@ var searchables =
 "Housing and Dining" :
 	["resources/student_living.html",
 		["housing", "dining", "meal", "red", "laundry", "dorm", "allergy", "allergen", "allergies", "vegetarian",
-			"dietary", "vegan"]],
+			"dietary", "vegan", "rez", "fifth", "res"]],
 "Disability Resources" :
 	["resources/inclusion.html",
 		["disability", "resources", "disabilities", "extended", "exam", "injury", "add", "adhd", "dyslexia"]],
 "Title IX" :
 	["resources/inclusion.html",
 		["title", "ix", "services", "gender", "equality", "disciplinary", "sexual", "misconduct", "assault",
-			"discrimination", "sex"]],
+			"discrimination", "sex", "cyert"]],
 "Center for Diversity and Inclusion" : 
 	["resources/inclusion.html" ,
 		["center", "diversity", "inclusion", "gay", "non-binary", "transgender", "underrepresented",
-			"advocacy", "climate", "intergroup", "dialogue", "safe", "zone"]],
+			"advocacy", "climate", "intergroup", "dialogue", "safe", "zone", "cuc", "uc"]],
 "Home" :
 	["index.html",
 		["home", "orientation", "info", "information", "guide", "resource"]],
