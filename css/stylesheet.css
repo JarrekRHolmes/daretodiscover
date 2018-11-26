@@ -1,0 +1,322 @@
+/* Styling for Flipcards */
+body {
+    text-align: center;
+    margin:0;
+}
+
+/*Applies to Page Titles*/
+h1 {
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    text-align: left;
+    font-size: 1.4em;
+}  
+
+h1.homepage {
+    color: #F2A900;
+}
+
+h1.resources {
+    color: #CC002B;
+}
+
+h1.learn {
+    color: #F8D47F;
+}
+
+h1.schedule {
+    color: #EA99AA;
+}
+
+h1.search {
+    color: #7A0019;
+}
+
+/*Applies to the Page Headers*/
+h2 {
+    font-size: 1.4em;
+    padding: 4% 5.5% 0%;
+    text-align: left;
+} 
+
+/*Applies to Category Buttons*/
+h3 {
+font-size: 100%;
+color: white;
+}
+
+/*Applies to Footer Text*/
+h4 {
+    text-align: left;
+    padding: 0% 5.5% 3%;
+    font-size: 50%;
+    color: gray;
+}
+
+/*Makes the Navbar stick to the top*/
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*Text underneath each icon*/
+p.iconText {
+    font-size: .3em;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+/*Applies to paragraphs underneath title "Welcome to Carnegie Mellon"*/
+p.OrientationInformation {
+    text-align: left;
+    padding: 1% 5.5% 0%;
+    font-size: .9em;
+}
+
+/*Color and font weight for active LEARN page*/
+.icon-bar.learn .active{
+    font-weight: 600;
+    color: #F8D47F;
+}
+
+/*Color and font weight for active INDEX page*/
+.icon-bar.homepage .active {
+    font-weight: 600;
+    color: #F2A900;
+}
+
+/*Color and font weight for active RESOURCE page*/
+.icon-bar.resources .active {
+    font-weight: 600;
+    color: #CC002B;
+}
+
+.icon-bar.schedule .active {
+    font-weight: 600;
+    color: #EA99AA;
+}
+
+.icon-bar.search .active {
+    font-weight: 600;
+    color: #7A0019;
+}
+
+/*Code for the icon Navbar*/
+.icon-bar {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    overflow: auto;
+    z-index: 50;
+    border-style: hidden hidden solid hidden;
+    border-width: .5px;
+    border-color: rgb(200, 200, 200, 0.7);
+}
+
+/*Code for the actual icons on the Navbar*/
+.icon-bar a {
+    width: 20%; /*Each icon is 20% of total phone width*/
+    padding: 0;
+    margin-top: 1%;
+    float: left;
+    transition: all 0.3s ease;
+    color: black; /*Icon color*/
+    font-size: 180%; /*Icon size*/
+
+}
+
+/*Hover Over an Icon on Navbar*/
+.icon-bar a:hover {
+    text-decoration: none;
+}
+
+/* Flashcards */
+
+label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 90%;
+    height: 275px;
+    margin-top: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+label:hover .card.learn {
+    -webkit-transform: rotateX(3deg);
+    transform: rotateX(3deg);
+    box-shadow: 0 3px 3px rgba(50,50,50,.2);
+}
+
+input {
+    display: none;
+}
+
+label:hover :checked + .card.learn {
+    transform: rotateX(177deg);
+    -webkit-transform: rotateX(177deg);
+    box-shadow: 0 3px 3px rgba(50,50,50,.2);
+}
+
+:checked + .card.learn {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+.card.learn {
+    height: 100%;
+    width: 100%;
+    background: #f8f8f8;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    padding: 5%;
+}
+
+.card.resource {
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card.resource button {
+    font-weight: 600;
+    text-decoration: none;
+    color: #CC002B;
+}
+
+.card.schedule {
+    background: #EA99AA;
+    color: white;
+    padding: 10%;
+    margin: 5%;
+    line-height: .8em;
+    font-size: .7em;
+}
+
+.card.schedule b {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.row.schedule a {
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.schedulebutton a:active {
+    transition: 0.2s ease-in-out;
+    background: #CC002B;
+    opacity: 0.7;
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+.card .back {
+    position: absolute;
+    width: 90%;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.card p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+.card .back p {
+    position: relative;
+}
+
+/*Dimensions for the Main Orientation Image on Homepage*/
+.mainImage {
+width: 100%;
+height: 100%;
+}
+
+.schedulebody {
+    text-align: left;
+    margin-left: 3%;    
+}
+
+/*Applies to each boxed category for RESOURCE*/
+.singleCategoryResource {
+background-color: #CC002B;
+text-align: left;
+padding: 4% 4%;
+float: left;
+width: 150px;
+height: 150px;
+margin: 5%;
+border-radius: 15px;
+}
+
+/*Applies to each boxed category for LEARN*/
+.singleCategoryLearn {
+background-color: #f8d47f;
+text-align: left;
+padding: 4% 4%;
+float: left;
+width: 150px;
+height: 150px;
+margin: 5%;
+border-radius: 15px;
+}
+
+#output{
+    text-align: left;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  /* equal to footer height */
+  margin-bottom: -60px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, .page-wrap:after {
+    height:60px;            /* Height of the footer */
+}
+
+.location{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.resource_img{
+    width: 80%;
+}
+
+.row.schedule {
+    margin-left: 0;
+    margin-right: 0;
+}
+.WelcomeToCarnegieMellonTitle {
+    margin-top: 2%;
+    color: black;
+}
