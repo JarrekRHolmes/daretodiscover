@@ -249,6 +249,10 @@ label:hover :checked + .card.learn {
     position: relative;
 }
 
+.question{
+    color: #CC002B;
+}
+
 /*Dimensions for the Main Orientation Image on Homepage*/
 .mainImage {
 width: 100%;
