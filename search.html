@@ -86,41 +86,7 @@
     
 
     <script type="text/javascript" src="data.json"></script>
-    <script>
-      document.getElementById("search_input").addEventListener("keyup", function (e) {
-           search(e);
-        })
-
-      function search(e){
-        var input = document.getElementById("search_input").value
-        console.log(input)
-        var inputArray = input.split(" ")
-        var toDisplay = new Set()
-
-
-        for (var key in searchables){
-          for (var i = 0; i < inputArray.length; i++){
-            input = inputArray[i].toLowerCase().replace(/[^a-z]/gi, '')
-            var tag = searchables[key][0];
-            var identifiers = searchables[key][1];
-            if (identifiers.includes(input)){
-              console.log("HI!")
-              toDisplay = toDisplay.add("<a class = 'search_results col-12' href = " + tag + ">" + key + "</a><br />");
-              console.log(Array.from(toDisplay).join("\n"));
-            }
-          }
-        }
-
-        if (toDisplay.size == 0){
-          document.getElementById("output").innerHTML = "<h2> Sorry, we didn't find what you were looking for! <br> <br> Try searching with more keywords, or check your spelling. </h2>"
-        }
-        else{
-          document.getElementById("output").innerHTML = Array.from(toDisplay).join("\n");
-        }
-        
-      }
-      
-    </script>
+    <script type="text/javascript" src="javascript/bundle.js"></script>
 
   </body>
 </html>
