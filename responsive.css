@@ -1,0 +1,320 @@
+@media screen and (min-width: 250px) and (max-width:276px){
+  .singleCategoryResource {
+    width: 100px;
+    height: 100px;
+  }
+  .singleCategoryLearn {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 277px) and (max-width:319px){
+  .singleCategoryResource {
+    width: 110px;
+    height: 110px;
+  }
+  .singleCategoryLearn {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:349px){
+  .singleCategoryResource {
+    width: 125px;
+    height: 125px;
+  }
+  .singleCategoryLearn {
+    width: 125px;
+    height: 125px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width:374px){
+  .singleCategoryResource {
+    width: 140px;
+    height: 140px;
+  }
+  .singleCategoryLearn {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width:395px){
+  .singleCategoryResource {
+    width: 145px;
+    height: 145px;
+  }
+  .singleCategoryLearn {
+    width: 145px;
+    height: 145px;
+  }
+}
+@media screen and (min-width: 396px) and (max-width:420px){
+  .singleCategoryResource {
+    width: 150px;
+    height: 150px;
+  }
+  .singleCategoryLearn {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width:460px){
+  .singleCategoryResource {
+    width: 160px;
+    height: 160px;
+  }
+  .singleCategoryLearn {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media screen and (min-width: 461px) and (max-width:490px){
+  .singleCategoryResource {
+    width: 175px;
+    height: 175px;
+  }
+  .singleCategoryLearn {
+    width: 175px;
+    height: 175px;
+  }
+}
+@media screen and (min-width: 491px) and (max-width:530px){
+  .singleCategoryResource {
+    width: 190px;
+    height: 190px;
+  }
+  .singleCategoryLearn {
+    width: 190px;
+    height: 190px;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 531px) and (max-width:560px){
+  .singleCategoryResource {
+    width: 205px;
+    height: 205px;
+  }
+  .singleCategoryLearn {
+    width: 205px;
+    height: 205px;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 561px) and (max-width:590px){
+  .singleCategoryResource {
+    width: 215px;
+    height: 215px;
+  }
+  .singleCategoryLearn {
+    width: 215px;
+    height: 215px;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 591px) and (max-width:620px){
+  .singleCategoryResource {
+    width: 230px;
+    height: 230px;
+  }
+  .singleCategoryLearn {
+    width: 230px;
+    height: 230px;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 621px) and (max-width:650px){
+  .singleCategoryResource {
+    width: 140px;
+    height: 140px;
+  }
+  .singleCategoryLearn {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (min-width: 651px) and (max-width:690px){
+  .singleCategoryResource {
+    width: 147px;
+    height: 147px;
+  }
+  .singleCategoryLearn {
+    width: 147px;
+    height: 147px;
+  }
+}
+@media screen and (min-width: 691px) and (max-width:740px){
+  .singleCategoryResource {
+    width: 157px;
+    height: 157px;
+  }
+  .singleCategoryLearn {
+    width: 157px;
+    height: 157px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width:790px){
+  .singleCategoryResource {
+    width: 168px;
+    height: 168px;
+  }
+  .singleCategoryLearn {
+    width: 168px;
+    height: 168px;
+  }
+  h3{
+    font-size: 120%
+  }
+}
+@media screen and (min-width: 791px) and (max-width:820px){
+  .singleCategoryResource {
+    width: 185px;
+    height: 185px;
+    margin: 2% 0% 2% 8%;
+    padding-top: 2%;
+  }
+  .singleCategoryLearn {
+    width: 185px;
+    height: 185px;
+    margin: 2% 0% 2% 8%;
+    padding-top: 2%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 8% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 821px) and (max-width:870px){
+  .singleCategoryResource {
+    width: 200px;
+    height: 200px;
+    margin: 2% 0% 2% 7%;
+    padding-top: 2%;
+  }
+  .singleCategoryLearn {
+    width: 200px;
+    height: 200px;
+    margin: 2% 0% 2% 7%;
+    padding-top: 2%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 7% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 871px) and (max-width:920px){
+  .singleCategoryResource {
+    width: 215px;
+    height: 215px;
+    margin: 2% 0% 2% 6%;
+    padding-top: 2%;
+  }
+  .singleCategoryLearn {
+    width: 215px;
+    height: 215px;
+    margin: 2% 0% 2% 6%;
+    padding-top: 2%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 6% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 921px) and (max-width:990px){
+  .singleCategoryResource {
+    width: 230px;
+    height: 230px;
+    margin: 2% 0% 2% 6%;
+    padding-top: 2%;
+  }
+  .singleCategoryLearn {
+    width: 230px;
+    height: 230px;
+    margin: 2% 0% 2% 6%;
+    padding-top: 2%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 6% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 991px) and (max-width:1144px){
+  .singleCategoryResource {
+    width: 240px;
+    height: 240px;
+    margin: 2% 0% 2% 8%;
+    padding-top: 2%;
+  }
+  .singleCategoryLearn {
+    width: 240px;
+    height: 240px;
+    margin: 2% 0% 2% 8%;
+    padding-top: 2%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 8% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 1145px) and (max-width:1270px){
+  .singleCategoryResource {
+    margin: 2% 0% 2% 3%;
+    padding: 1% 1%;
+  }
+  .singleCategoryLearn {
+    margin: 2% 0% 2% 3%;
+    padding: 1% 1%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 3% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
+@media screen and (min-width: 1271px){
+  .singleCategoryResource {
+    margin: 2% 0% 2% 3%;
+    padding: 1% 1%;
+  }
+  .singleCategoryLearn {
+    margin: 2% 0% 2% 3%;
+    padding: 1% 1%;
+  }
+  div.firstCategory {
+    margin: 2% 0% 2% 7%;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 2% 7% 0%;
+  }
+  h3{
+    font-size: 130%
+  }
+}
