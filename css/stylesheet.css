@@ -319,6 +319,7 @@ footer, .page-wrap:after {
 }
 
 .resource_img{
+    padding-top: 50px;
     width: 100%;
 }
 
