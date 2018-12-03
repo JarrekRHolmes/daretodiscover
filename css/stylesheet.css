@@ -282,6 +282,10 @@ margin: 5%;
 border-radius: 15px;
 }
 
+.singleCategoryResource:hover {
+	background-color: #7A0019;
+}
+
 /*Applies to each boxed category for LEARN*/
 .singleCategoryLearn {
 background-color: #f8d47f;
@@ -292,6 +296,10 @@ width: 150px;
 height: 150px;
 margin: 5%;
 border-radius: 15px;
+}
+
+.singleCategoryLearn:hover {
+	background-color: #F2A900;
 }
 
 .search_results {
