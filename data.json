@@ -30,7 +30,7 @@ var searchables =
 "CMU Emergency Medical Services" :
 	["resources/police_ems.html",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
-			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
+			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er", "ambulance"]],
 "Academic Development":
 	["resources/academic_career.html" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",

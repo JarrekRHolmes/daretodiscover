@@ -3,6 +3,7 @@ body {
     text-align: center;
     margin:0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -319,6 +320,7 @@ footer, .page-wrap:after {
 }
 
 .resource_img{
+    padding-top: 50px;
     width: 100%;
 }
 
