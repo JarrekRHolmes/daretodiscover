@@ -4,6 +4,8 @@ body {
     margin:0;
     overflow-x: hidden;
 }
+
+
 html{
     overflow-x: hidden;
 }
@@ -14,7 +16,7 @@ h1 {
     padding-top: 4%;
     padding-bottom: 1%;
     text-align: left;
-    font-size: 1.4em;
+    font-size: 1.4em 
 }  
 
 h1.homepage {
@@ -299,7 +301,7 @@ border-radius: 15px;
 .page-wrap {
   min-height: 100vh;
   /* equal to footer height */
-  margin-bottom: -60px; 
+  margin-bottom: -65px; 
 }
 .page-wrap:after {
   content: "";
@@ -317,7 +319,7 @@ footer, .page-wrap:after {
 }
 
 .resource_img{
-    width: 80%;
+    width: 100%;
 }
 
 .row.schedule {
