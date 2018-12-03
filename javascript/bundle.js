@@ -29,7 +29,7 @@ function search(e){
   }
 
   if (toDisplay.size == 0){
-    document.getElementById("output").innerHTML = "<h2> Sorry, we didn't find what you were looking for! <br> <br> Try searching with more keywords, or check your spelling. </h2>"
+    document.getElementById("output").innerHTML = "<h2> Try searching with more keywords, or check your spelling. </h2>"
   }
   else{
     document.getElementById("output").innerHTML = Array.from(toDisplay).join("\n");
