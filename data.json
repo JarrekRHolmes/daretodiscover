@@ -1,81 +1,81 @@
 var searchables = 
 {"University Health Services" : 
-	["resources/health.html", 
+	["resources/health.html#uhs", 
 		["health", "uhs",  "university", "services", "hospital", "medicine", "flu", "shot",
 			"immunization", "doctor", "nurse", "sick", "ill", "illness", "care", "disease", "er",
 			"morewood", "gardens"]],
 "Wellness Initiatives" : 
-	["resources/health.html", 
+	["resources/health.html#wellness", 
 		["wellness", "initiative", "headspace", "bewell", "well", "mindful", "mindfulness", "wellbeing",
 			"stress", "meditation"]], 
 "Counseling and Psychological Services" :
-	["resources/health.html",
+	["resources/health.html#caps",
 		["counseling", "psychological", "services", "caps", "mental", "health", "wellness", "psychologist",
 			"morewood", "gardens"]],
 "Tartan Ink" : 
-	["resources/computing_printing.html" ,
+	["resources/computing_printing.html#tartan" ,
 		["printing", "shipping", "booklets", "flyers", "posters", "binding", "lamination", "passport", 
 			"photo", "postcard", "brochure", "ups", "print", "ship", "tartan", "ink",
 			"uc", "cuc"]],
 "C@CM" : 
-	["resources/computing_printing.html" ,
+	["resources/computing_printing.html#ccm" ,
 		["c@cm", "oli", "computing"]],
 "Computing Services" : 
-	["resources/computing_printing.html",
+	["resources/computing_printing.html#computing",
 		["computer", "computing", "internet", "android", "iphone", "wireless", "wifi", "service"]],
 "CMU Police Department" :
-	["resources/police_ems.html",
+	["resources/police_ems.html#police",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
 			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er"]],
 "CMU Emergency Medical Services" :
-	["resources/police_ems.html",
+	["resources/police_ems.html#ems",
 		["emergency", "health", "ems", "medical", "services", "pd", "police", "department", "crime", "locked", "keys", 
 			"drugs", "alcohol", "amnesty", "escort", "shuttle", "blue", "light", "security", "er", "ambulance"]],
 "Academic Development":
-	["resources/academic_career.html" ,
+	["resources/academic_career.html#academic" ,
 		["academic", "development", "tutor", "tutoring", "courses", "si", "excel", "time", "management", "textbook",
 			"study", "library", "hunt", "cyert"]],
 "Undergraduate Research Office" :
-	["resources/academic_career.html",
+	["resources/academic_career.html#uro",
 		["research", "undergraduate", "surg", "surf", "fellowship", "project", "warner", "hall"]],
 "Global Communication Center" :
-	["resources/academic_career.html",
+	["resources/academic_career.html#gcc",
 		["gcc", "global", "communication", "center", "powerpoint", "esssay", "personal", "statement", "resume", "cover",
 			"letter", "speech", "email", "grant", "writing", "revising", "editing", "research", "paper",
 			"library", "hunt"]],
 "Intercultural Communication Center" :
-	["resources/academic_career.html",
+	["resources/academic_career.html#icc",
 		["intercultural", "communication", "center", "english", "non-native", "second", "language", "TOEFL", "ICC",
 			"ita", "warner", "hall"]],
 "Career and Professional Development Center":
-	["resources/academic_career.html" ,
+	["resources/academic_career.html#cpdc" ,
 		["career", "professional", "development", "center", "resume", "cover", "letter", "job", "prefession",
 			"internship", "CPDC", "west", "wing", "resnik"]],
 "The HUB" :
-	["resources/student_living.html",
+	["resources/student_living.html#hub",
 		["financial", "aid", "award", "loan", "scholarship", "registrar", "registration", "transcript", "grades", 
 			"invoices", "payments", "sio", "scheduling", "information", "hub", "id", "card", "account", "enrollment",
 			"warner"]],
 "Alumni Association" : 
-	["resources/student_living.html" ,
+	["resources/student_living.html#alumni" ,
 		["alumni", "tartan", "network", "internship", "house"]],
 "Desk Services" :
-	["resources/student_living.html",
+	["resources/student_living.html#desk",
 		["desk", "services", "checkout", "equipment", "printer", "print", "troubleshoot", "trash", "booklet", "orientation",
 			"access"]],
 "Housing and Dining" :
-	["resources/student_living.html",
+	["resources/student_living.html#housing",
 		["housing", "dining", "meal", "red", "laundry", "dorm", "allergy", "allergen", "allergies", "vegetarian",
 			"dietary", "vegan", "rez", "fifth", "res", "food"]],
 "Disability Resources" :
-	["resources/inclusion.html",
+	["resources/inclusion.html#disability",
 		["disability", "resources", "disabilities", "extended", "exam", "injury", "add", "adhd", "dyslexia"]],
 "Title IX" :
-	["resources/inclusion.html",
+	["resources/inclusion.html#title",
 		["title", "ix", "services", "gender", "equality", "disciplinary", "sexual", "misconduct", "assault",
 			"discrimination", "sex", "cyert"]],
 "Center for Diversity and Inclusion" : 
-	["resources/inclusion.html" ,
+	["resources/inclusion.html#diversity" ,
 		["center", "diversity", "inclusion", "gay", "non-binary", "transgender", "underrepresented",
 			"advocacy", "climate", "intergroup", "dialogue", "safe", "zone", "cuc", "uc"]],
 "Home" :
