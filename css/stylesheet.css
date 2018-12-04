@@ -223,7 +223,7 @@ label:hover :checked + .card.learn {
     text-decoration: none;
 }
 
-.schedulebutton a:active {
+.schedulebutton a:hover, .schedulebutton a:active {
     transition: 0.2s ease-in-out;
     background: #CC002B;
     opacity: 0.7;
@@ -284,6 +284,7 @@ border-radius: 15px;
 
 .singleCategoryResource:hover {
 	background-color: #7A0019;
+    transition: all 0.3s ease;
 }
 
 /*Applies to each boxed category for LEARN*/
@@ -300,6 +301,7 @@ border-radius: 15px;
 
 .singleCategoryLearn:hover {
 	background-color: #F2A900;
+    transition: all 0.3s ease;
 }
 
 .search_results {
